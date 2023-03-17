@@ -180,10 +180,12 @@ body {
 }
 
 .section-btn:hover {
+  color: #ffffff;
   background-color: #404bbf;
 }
 
 .section-btn:focus {
+  color: #ffffff;
   background-color: #404bbf;
 }
 
