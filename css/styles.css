@@ -61,3 +61,34 @@ body {
 .adress-list-item:focus {
   color: #404bbf;
 }
+/* Sections */
+
+.section-description {
+  background-color: #2e2f42;
+}
+
+.section-description-item {
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+
+.section-description-btn {
+  background-color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+.section-description-btn:hover {
+  color: #404bbf;
+}
+
+.section-description-btn:focus {
+  color: #404bbf;
+}
