@@ -34,11 +34,11 @@ body {
 }
 
 .link:hover {
-  color: var(--hoover-focus-color);
+  color: var(--hover-focus-color);
 }
 
 .link:focus {
-  color: var(--hoover-focus-color);
+  color: var(--hover-focus-color);
 }
 
 .nav-first {
@@ -61,11 +61,11 @@ body {
 }
 
 .adress-list-item:hover {
-  color: var(--hoover-focus-color);
+  color: var(--hover-focus-color);
 }
 
 .adress-list-item:focus {
-  color: var(--hoover-focus-color);
+  color: var(--hover-focus-color);
 }
 /* Sections */
 
@@ -187,12 +187,12 @@ body {
 
 .section-btn:hover {
   color: var(--background-color);
-  background-color: var(--hoover-focus-color);
+  background-color: var(--hover-focus-color);
 }
 
 .section-btn:focus {
   color: var(--background-color);
-  background-color: var(--hoover-focus-color);
+  background-color: var(--hover-focus-color);
 }
 
 .section-service-descrip {
