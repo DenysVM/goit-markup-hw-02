@@ -1,10 +1,16 @@
 :root {
+  --main-text: #434455;
+  --background-color: #ffffff;
+  --logo-color: #4d5ae5;
+  --description-text: #2e2f42;
+  --hoover-focus-color: #404bbf;
+  --section-background-color: #f4f4fd;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #434455;
-  background-color: #ffffff;
+  color: var(--main-text);
+  background-color: var(--background-color);
 }
 
 .list {
@@ -17,10 +23,10 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--logo-color);
 }
 .logo-text {
-  color: #2e2f42;
+  color: var(--description-text);
 }
 
 .link {
@@ -28,11 +34,11 @@ body {
 }
 
 .link:hover {
-  color: #404bbf;
+  color: var(--hoover-focus-color);
 }
 
 .link:focus {
-  color: #404bbf;
+  color: var(--hoover-focus-color);
 }
 
 .nav-first {
@@ -40,7 +46,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--description-text);
 }
 
 .adress-list {
@@ -51,20 +57,20 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--main-text);
 }
 
 .adress-list-item:hover {
-  color: #404bbf;
+  color: var(--hoover-focus-color);
 }
 
 .adress-list-item:focus {
-  color: #404bbf;
+  color: var(--hoover-focus-color);
 }
 /* Sections */
 
 .section-description {
-  background-color: #2e2f42;
+  background-color: var(--description-text);
 }
 
 .section-description-item {
@@ -72,25 +78,25 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: #ffffff;
+  color: var(--background-color) f;
 }
 
 .section-description-btn {
-  background-color: #4d5ae5;
+  background-color: var(--logo-color);
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #ffffff;
+  color: var(--background-color);
   cursor: pointer;
 }
 .section-description-btn:hover {
-  background-color: #404bbf;
+  background-color: var(--hoover-focus-color);
 }
 
 .section-description-btn:focus {
-  background-color: #404bbf;
+  background-color: var(--hoover-focus-color);
 }
 
 .section-features-item {
@@ -98,14 +104,14 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--description-text);
 }
 
 .section-features-item-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--main-text);
 }
 
 .section-doing {
@@ -114,11 +120,11 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--description-text);
 }
 
 .section-team {
-  background-color: #f4f4fd;
+  background-color: var(--section-background-color);
 }
 .section-team-head {
   font-size: 36px;
@@ -126,11 +132,11 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
-  color: #2e2f42;
+  color: var(--description-text);
 }
 
 .section-team-item {
-  background-color: #ffffff;
+  background-color: var(--background-color);
 }
 
 .section-team-person {
@@ -138,19 +144,19 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--description-text);
 }
 
 .section-team-person-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--main-text);
 }
 /* Footer */
 
 .footer-main {
-  background-color: #2e2f42;
+  background-color: var(--description-text);
 }
 .footer-logo {
   font-family: "Raleway", sans-serif;
@@ -159,11 +165,11 @@ body {
   line-height: 1.17;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4d5ae5;
+  color: var(--logo-color);
 }
 
 .logo-footer-text {
-  color: #f4f4fd;
+  color: var(--section-background-color);
 }
 
 /* Portfolio */
@@ -174,19 +180,19 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
-  color: #4d5ae5;
-  background-color: #f4f4fd;
+  color: var(--logo-color);
+  background-color: var(--section-background-color);
   cursor: pointer;
 }
 
 .section-btn:hover {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--background-color);
+  background-color: var(--hoover-focus-color);
 }
 
 .section-btn:focus {
-  color: #ffffff;
-  background-color: #404bbf;
+  color: var(--background-color) ff;
+  background-color: var(--hoover-focus-color);
 }
 
 .section-service-descrip {
@@ -194,11 +200,11 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  color: #2e2f42;
+  color: var(--description-text);
 }
 .section-service-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
+  color: var(--main-text);
 }
