@@ -3,7 +3,7 @@
   --background-color: #ffffff;
   --logo-color: #4d5ae5;
   --description-text: #2e2f42;
-  --hoover-focus-color: #404bbf;
+  --hover-focus-color: #404bbf;
   --section-background-color: #f4f4fd;
 }
 
@@ -78,7 +78,7 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--background-color) f;
+  color: var(--background-color);
 }
 
 .section-description-btn {
@@ -92,11 +92,11 @@ body {
   cursor: pointer;
 }
 .section-description-btn:hover {
-  background-color: var(--hoover-focus-color);
+  background-color: var(--hover-focus-color);
 }
 
 .section-description-btn:focus {
-  background-color: var(--hoover-focus-color);
+  background-color: var(--hover-focus-color);
 }
 
 .section-features-item {
@@ -191,7 +191,7 @@ body {
 }
 
 .section-btn:focus {
-  color: var(--background-color) ff;
+  color: var(--background-color);
   background-color: var(--hoover-focus-color);
 }
 
